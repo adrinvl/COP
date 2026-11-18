@@ -1,0 +1,517 @@
+{
+  "city": "Bordeaux",
+  "center": [
+    -0.5792,
+    44.8378
+  ],
+  "updated": "2026-11-18",
+  "venues": [
+    {
+      "id": "ublo",
+      "name": "Ublo",
+      "type": "peniche",
+      "status": "confirme",
+      "quartier": "Bassins à flot",
+      "styles": "Électro, techno, cultures urbaines",
+      "tags": [
+        "techno",
+        "electro",
+        "rap"
+      ],
+      "address": "Bassin à flot n°1, 33300 Bordeaux",
+      "geo": "Cours Henri Brunet 33300 Bordeaux",
+      "hours": "Jeu–sam, 0 h–6 h",
+      "transport": "Tram B",
+      "proof": "sept. 2026",
+      "source": {
+        "label": "Le Bonbon",
+        "url": "https://lebonbon.fr/bordeaux/loisirs/ublo-nouveau-bateau-festif-qui-succe-iboat-ouvrira-tres-bientot-a-bordeaux/"
+      },
+      "notes": "Remplace l'I.Boat, fermé en février 2026.",
+      "lgbt": false
+    },
+    {
+      "id": "entrepot",
+      "name": "L'Entrepôt",
+      "type": "warehouse",
+      "status": "confirme",
+      "quartier": "Bacalan",
+      "styles": "Techno, bass music, alternatif",
+      "tags": [
+        "techno",
+        "electro"
+      ],
+      "address": "36 avenue du Dr Schinazi, 33300 Bordeaux",
+      "geo": "36 avenue du Docteur Schinazi 33300 Bordeaux",
+      "hours": "Soirs d'événement, à partir de 23 h 59",
+      "transport": "Tram B Berges de la Garonne (4 min à pied)",
+      "proof": "nov. 2026",
+      "source": {
+        "label": "Songkick",
+        "url": "https://labs.songkick.com/venues/3734714-lentrepot-club"
+      },
+      "notes": "Ancien hangar industriel, club et salle de concert.",
+      "lgbt": false
+    },
+    {
+      "id": "hangar-ds",
+      "name": "Hangar DS",
+      "type": "warehouse",
+      "status": "confirme",
+      "quartier": "Bacalan",
+      "styles": "Hard techno, hardstyle, trance, hardcore",
+      "tags": [
+        "hard",
+        "techno"
+      ],
+      "address": "17 rue Édouard Faure, 33300 Bordeaux",
+      "geo": "17 rue Edouard Faure 33300 Bordeaux",
+      "hours": "Soirs d'événement, 0 h–6 h 30",
+      "entry": "Billetterie Shotgun",
+      "transport": "Tram B Berges de la Garonne",
+      "proof": "sept. 2026",
+      "source": {
+        "label": "Shotgun",
+        "url": "https://shotgun.live/fr/events/namaste-hilight-tribe-koxbox-talamasca-sensifeel-hfl"
+      },
+      "notes": "Terrasse, vestiaire.",
+      "lgbt": false
+    },
+    {
+      "id": "le-secteur",
+      "name": "Le Secteur",
+      "type": "club",
+      "status": "confirme",
+      "quartier": "Bègles – Terres Neuves",
+      "styles": "Rap, hip-hop, R&B, afro-caribéen, shatta, années 90-2000",
+      "tags": [
+        "rap",
+        "afro",
+        "retro"
+      ],
+      "address": "59 rue des Terres Neuves, 33130 Bègles",
+      "geo": "59 rue des Terres Neuves 33130 Bègles",
+      "hours": "0 h–6 h",
+      "entry": "15 € avec une conso avant 1 h, 20 € après",
+      "transport": "Tram C Terres Neuves",
+      "proof": "nov. 2026",
+      "source": {
+        "label": "Quoi faire à Bordeaux",
+        "url": "https://quoifaireabordeaux.com/?p=20027579"
+      },
+      "notes": "Ex-BT59. Dress code street.",
+      "lgbt": false
+    },
+    {
+      "id": "calle-ocho",
+      "name": "Calle Ocho",
+      "type": "bar",
+      "status": "confirme",
+      "quartier": "Saint-Pierre",
+      "styles": "Salsa, merengue, bachata, reggaeton",
+      "tags": [
+        "latino"
+      ],
+      "address": "24 rue des Piliers de Tutelle, 33000 Bordeaux",
+      "geo": "24 rue des Piliers de Tutelle 33000 Bordeaux",
+      "hours": "Tous les jours, 17 h–2 h",
+      "transport": "Tram B Grand Théâtre",
+      "proof": "févr. 2026",
+      "source": {
+        "label": "Quoi faire à Bordeaux",
+        "url": "https://quoifaireabordeaux.com/calle-ocho-bar-dansant-latino-bordeaux/"
+      },
+      "notes": "Bar cubain depuis 1996, deux étages.",
+      "lgbt": false
+    },
+    {
+      "id": "ultra-klub",
+      "name": "Ultra Klub",
+      "type": "club",
+      "status": "confirme",
+      "quartier": "Sainte-Croix",
+      "styles": "Pop, reggaeton, électro, drag shows",
+      "tags": [
+        "pop",
+        "latino",
+        "electro"
+      ],
+      "lgbt": true,
+      "address": "22 place André Meunier, 33800 Bordeaux",
+      "geo": "22 place André Meunier 33800 Bordeaux",
+      "hours": "Jeu–sam, 0 h–7 h",
+      "transport": "Tram C Sainte-Croix (7 min à pied)",
+      "proof": "2026",
+      "source": {
+        "label": "Office de tourisme",
+        "url": "https://www.bordeaux-tourism.co.uk/night-out/nightclubs-dj-sets"
+      },
+      "notes": "Club LGBTQ+."
+    },
+    {
+      "id": "coco-loko",
+      "name": "Coco Loko",
+      "type": "bar",
+      "status": "confirme",
+      "quartier": "Centre",
+      "styles": "Pop au rez-de-chaussée, électro à l'étage",
+      "tags": [
+        "pop",
+        "electro"
+      ],
+      "lgbt": true,
+      "address": "3 rue Duffour Dubergier, 33000 Bordeaux",
+      "geo": "3 rue Duffour Dubergier 33000 Bordeaux",
+      "hours": "Tous les jours, 18 h–2 h",
+      "entry": "Gratuit",
+      "proof": "2026",
+      "source": {
+        "label": "Office de tourisme",
+        "url": "https://www.bordeaux-tourism.co.uk/bordeaux-night/bordeauxs-gay-and-lgbtq-bars"
+      },
+      "notes": "Bar LGBTQ+, drag shows."
+    },
+    {
+      "id": "la-dame",
+      "name": "La Dame",
+      "type": "club",
+      "status": "confirme",
+      "quartier": "Bassins à flot",
+      "styles": "House, disco, électro, années 80-2000, rap US le mercredi",
+      "tags": [
+        "electro",
+        "retro",
+        "rap"
+      ],
+      "address": "1 quai Armand Lalande, 33300 Bordeaux",
+      "geo": "1 quai Armand Lalande 33300 Bordeaux",
+      "transport": "Tram B Cité du Vin (7 min à pied)",
+      "proof": "janv. 2026",
+      "source": {
+        "label": "Quoi faire à Bordeaux",
+        "url": "https://quoifaireabordeaux.com/soirees-rap-us-bordeaux-icons-mercredi/"
+      },
+      "notes": "Bateau-club. Soirées rap US le mercredi. Rooftop l'été.",
+      "lgbt": false
+    },
+    {
+      "id": "the-base",
+      "name": "The Base",
+      "type": "club",
+      "status": "confirme",
+      "quartier": "Bacalan – Ravezies",
+      "styles": "Généraliste, spectacles",
+      "tags": [
+        "generaliste"
+      ],
+      "address": "287 boulevard Alfred Daney, 33300 Bordeaux",
+      "geo": "287 boulevard Alfred Daney 33300 Bordeaux",
+      "hours": "Ven, sam et veilles de fériés : restaurant dès 21 h 30, club jusqu'à 7 h",
+      "entry": "12 € avec une conso",
+      "transport": "Tram C Place Ravezies (20 min à pied)",
+      "source": {
+        "label": "Bordeaux Secret",
+        "url": "https://bordeauxsecret.com/en/best-nightclubs-in-bordeaux/"
+      },
+      "notes": "2 000 m², spectacles. Salle « Theatro Plus » pour les 30 ans et plus.",
+      "lgbt": false
+    },
+    {
+      "id": "monseigneur",
+      "name": "Le Monseigneur",
+      "type": "club",
+      "status": "confirme",
+      "quartier": "Quinconces",
+      "styles": "Généraliste, house",
+      "tags": [
+        "generaliste",
+        "electro"
+      ],
+      "address": "42 allées d'Orléans, 33000 Bordeaux",
+      "geo": "42 allées d'Orléans 33000 Bordeaux",
+      "hours": "Jusqu'à 7 h",
+      "transport": "Tram B Quinconces",
+      "source": {
+        "label": "Office de tourisme",
+        "url": "https://www.bordeaux-tourism.co.uk/night-out/nightclubs-dj-sets"
+      },
+      "notes": "Décor rétro-chic.",
+      "lgbt": false
+    },
+    {
+      "id": "le-cercle",
+      "name": "Le Cercle",
+      "type": "club",
+      "status": "confirme",
+      "quartier": "Grand Théâtre – Tourny",
+      "styles": "Électro chic, DJ résidents",
+      "tags": [
+        "electro"
+      ],
+      "address": "29-35 rue Esprit des Lois, 33000 Bordeaux",
+      "geo": "29 rue Esprit des Lois 33000 Bordeaux",
+      "hours": "Mer–sam, 23 h 30–5 h",
+      "transport": "Tram B Grand Théâtre",
+      "source": {
+        "label": "Privateaser",
+        "url": "https://www.privateaser.com/lieu/57662-le-cercle-boite-de-nuit-a-bordeaux"
+      },
+      "notes": "Club chic, réputé sélectif.",
+      "lgbt": false
+    },
+    {
+      "id": "le-bourbon",
+      "name": "Le Bourbon",
+      "type": "bar",
+      "status": "a-verifier",
+      "quartier": "Bacalan",
+      "styles": "Soirées à thème, artistes live",
+      "tags": [
+        "generaliste"
+      ],
+      "address": "62 rue Bourbon, 33300 Bordeaux",
+      "geo": "62 rue Bourbon 33300 Bordeaux",
+      "hours": "Mer 19 h 30–2 h, jeu 19 h 30–4 h, ven–sam 19 h 30–5 h",
+      "transport": "Tram B Les Hangars (10 min à pied)",
+      "proof": "nov. 2025",
+      "source": {
+        "label": "Quoi faire à Bordeaux",
+        "url": "https://quoifaireabordeaux.com/?p=18815054"
+      },
+      "notes": "Restaurant puis club, DJ et performers.",
+      "lgbt": false
+    },
+    {
+      "id": "bal-du-coq",
+      "name": "Bal du Coq",
+      "type": "bar",
+      "status": "a-verifier",
+      "quartier": "Saint-Pierre",
+      "styles": "Années 80 à 2000, disco, variété française",
+      "tags": [
+        "retro",
+        "variete"
+      ],
+      "address": "8 rue des Piliers de Tutelle, 33000 Bordeaux",
+      "geo": "8 rue des Piliers de Tutelle 33000 Bordeaux",
+      "hours": "Mer–sam, 19 h–2 h",
+      "proof": "mai 2025",
+      "source": {
+        "label": "Le Bonbon",
+        "url": "https://www.lebonbon.fr/bordeaux/actu/bouillon-cotillons-nouveau-restaurant-festif-dansant-bordeaux/"
+      },
+      "notes": "Restaurant Bouillon et Cotillons à l'étage.",
+      "lgbt": false
+    },
+    {
+      "id": "petit-pierre",
+      "name": "Le Petit Pierre",
+      "type": "bar",
+      "status": "a-verifier",
+      "quartier": "Saint-Pierre – quais",
+      "styles": "Variété, tubes",
+      "tags": [
+        "variete"
+      ],
+      "address": "61 quai Richelieu, 33000 Bordeaux",
+      "geo": "61 quai Richelieu 33000 Bordeaux",
+      "hours": "Mardi 17 h–1 h (horaires incomplets)",
+      "proof": "mai 2025",
+      "source": {
+        "label": "Le Bonbon",
+        "url": "https://www.lebonbon.fr/bordeaux/pop-culture/top-des-bars-dansants-a-bordeaux/"
+      },
+      "notes": "Petit bar de quartier où l'on danse sur de la variété.",
+      "lgbt": false
+    },
+    {
+      "id": "l-empire",
+      "name": "L'Empire",
+      "type": "bar",
+      "status": "confirme",
+      "quartier": "Saint-Pierre",
+      "styles": "Soirées à thème (années 90, soirée blanche)",
+      "tags": [
+        "retro",
+        "generaliste"
+      ],
+      "address": "14 rue de la Devise, 33000 Bordeaux",
+      "geo": "14 rue de la Devise 33000 Bordeaux",
+      "hours": "Mer–sam, 19 h–2 h",
+      "source": {
+        "label": "Le Bonbon",
+        "url": "https://www.lebonbon.fr/bordeaux/pop-culture/top-des-bars-dansants-a-bordeaux/"
+      },
+      "notes": "Aussi appelé Le Nouvel Empire. Anciennes écuries, spectacles, comedy club.",
+      "lgbt": false
+    },
+    {
+      "id": "bodega-bodega",
+      "name": "Bodega Bodega",
+      "type": "bar",
+      "status": "a-verifier",
+      "quartier": "Saint-Pierre",
+      "styles": "Latino, dance",
+      "tags": [
+        "latino"
+      ],
+      "address": "4 rue des Piliers de Tutelle, 33000 Bordeaux",
+      "geo": "4 rue des Piliers de Tutelle 33000 Bordeaux",
+      "hours": "Lun–sam, 9 h–15 h et 17 h–2 h",
+      "proof": "mai 2025",
+      "source": {
+        "label": "Office de tourisme",
+        "url": "https://www.bordeaux-tourism.co.uk/restaurant/bodega-bodega.html"
+      },
+      "notes": "Bar à tapas espagnol où l'on danse le soir.",
+      "lgbt": false
+    },
+    {
+      "id": "levrette-cafe",
+      "name": "Levrette Café",
+      "type": "bar",
+      "status": "confirme",
+      "quartier": "Saint-Pierre",
+      "styles": "Variété française et internationale",
+      "tags": [
+        "variete",
+        "generaliste"
+      ],
+      "address": "6-8 rue de Mérignac, 33000 Bordeaux",
+      "geo": "6 rue de Mérignac 33000 Bordeaux",
+      "hours": "Mar–sam, 18 h–2 h",
+      "proof": "mars 2026",
+      "source": {
+        "label": "Privateaser",
+        "url": "https://www.privateaser.com/lieu/2868-levrette-cafe"
+      },
+      "lgbt": false
+    },
+    {
+      "id": "toucan-fringant",
+      "name": "Au Toucan Fringant",
+      "type": "bar",
+      "status": "confirme",
+      "quartier": "Sainte-Croix – quais",
+      "styles": "Salsa, bachata, reggaeton, DJ",
+      "tags": [
+        "latino"
+      ],
+      "address": "6-7 quai de la Monnaie, 33800 Bordeaux",
+      "geo": "6 quai de la Monnaie 33800 Bordeaux",
+      "hours": "Tous les jours, 16 h–2 h",
+      "proof": "nov. 2026",
+      "source": {
+        "label": "Salsavida",
+        "url": "https://www.salsavida.com/?p=25043"
+      },
+      "notes": "Soirée bachata chaque jeudi. Happy hour 16 h–21 h.",
+      "lgbt": false
+    },
+    {
+      "id": "papi-peyo",
+      "name": "Papi Peyo",
+      "type": "bar",
+      "status": "confirme",
+      "quartier": "Bassins à flot",
+      "styles": "Playlists festives, bandas",
+      "tags": [
+        "generaliste"
+      ],
+      "address": "65 quai Lawton, 33300 Bordeaux",
+      "geo": "65 quai Lawton 33300 Bordeaux",
+      "hours": "Tous les jours, 16 h–2 h",
+      "proof": "janv. 2026",
+      "source": {
+        "label": "Guide Bordeaux Gironde",
+        "url": "https://www.guide-bordeaux-gironde.com/en/tourism/eating-and-drinking/bars/bordeaux-61/papi-peyo-10582.html"
+      },
+      "notes": "Bar basque.",
+      "lgbt": false
+    },
+    {
+      "id": "delirium-cafe",
+      "name": "Delirium Café",
+      "type": "bar",
+      "status": "confirme",
+      "quartier": "Bassins à flot",
+      "styles": "DJ sets, concerts, soirées à thème",
+      "tags": [
+        "generaliste"
+      ],
+      "address": "30 quai Virginie Hériot, 33300 Bordeaux",
+      "geo": "30 quai Virginie Hériot 33300 Bordeaux",
+      "hours": "Tous les jours, 16 h–2 h",
+      "source": {
+        "label": "Le Bonbon",
+        "url": "https://en.lebonbon.fr/bordeaux/tops-spots/bars-beers"
+      },
+      "notes": "1 200 m², scène et piste de danse, soirées du jeudi au samedi.",
+      "lgbt": false
+    },
+    {
+      "id": "l-arche",
+      "name": "L'Arche",
+      "type": "club",
+      "status": "confirme",
+      "quartier": "Saint-Pierre",
+      "styles": "Éclectique, alternatif",
+      "tags": [
+        "generaliste"
+      ],
+      "address": "7 rue du Parlement Sainte-Catherine, 33000 Bordeaux",
+      "geo": "7 rue du Parlement Sainte-Catherine 33000 Bordeaux",
+      "hours": "Mer–sam, 22 h–6 h",
+      "source": {
+        "label": "Le Bonbon",
+        "url": "https://www.lebonbon.fr/bordeaux/pop-culture/top-des-bars-dansants-a-bordeaux/"
+      },
+      "lgbt": false
+    },
+    {
+      "id": "sekoya",
+      "name": "SEKOYA",
+      "type": "club",
+      "status": "annonce",
+      "quartier": "Rive droite – Queyries",
+      "styles": "R&B et rap US le jeudi, commercial et open format le week-end",
+      "tags": [
+        "rap",
+        "generaliste"
+      ],
+      "address": "7 quai des Queyries, 33100 Bordeaux",
+      "geo": "7 quai des Queyries 33100 Bordeaux",
+      "hours": "Jeu–dim, 0 h–5 h",
+      "entry": "15 € avec une conso (soirées d'ouverture)",
+      "proof": "nov. 2026",
+      "source": {
+        "label": "Le Bonbon",
+        "url": "https://www.lebonbon.fr/bordeaux/news/nouveau-club-generaliste-ouvre-quais-pied-pont-pierre-a-bordeaux/"
+      },
+      "notes": "Nouveau club, ouverture annoncée le 6 nov. 2026.",
+      "lgbt": false
+    },
+    {
+      "id": "danse-machine",
+      "name": "Danse Machine",
+      "type": "bar",
+      "status": "a-verifier",
+      "quartier": "Bassins à flot",
+      "styles": "Pop culture des années 80 à 2010",
+      "tags": [
+        "retro",
+        "pop"
+      ],
+      "address": "45 quai Lawton, 33300 Bordeaux",
+      "geo": "45 quai Lawton 33300 Bordeaux",
+      "hours": "Mer–sam, 17 h–2 h",
+      "proof": "avr. 2025",
+      "source": {
+        "label": "Le Bonbon",
+        "url": "https://www.lebonbon.fr/bordeaux/les-tops-spots/dance-machine-plus-grand-bar-annees-90-bordeaux-quais/"
+      },
+      "notes": "DJ sets du mercredi au samedi.",
+      "lgbt": false
+    }
+  ]
+}

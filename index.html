@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#111113">
+<meta name="color-scheme" content="dark">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="COP">
+<meta name="description" content="COP : les boîtes de nuit et bars dansants, vérifiés, sur une carte.">
+<title>COP · Clubs et bars dansants</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="assets/vendor/maplibre-gl-5.24.1/maplibre-gl.css">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<div id="map" class="map" role="region" aria-label="Carte des lieux"></div>
+
+<header class="top">
+  <div class="search">
+    <svg aria-hidden="true" viewBox="0 0 24 24" class="ico ico-muted"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4.2-4.2"/></svg>
+    <label class="sr" for="q">Rechercher un lieu</label>
+    <input id="q" type="search" placeholder="Club, bar, quartier, style" autocomplete="off" enterkeyhint="search">
+    <button id="city" class="city" type="button" aria-label="Changer de ville">Bordeaux<svg aria-hidden="true" viewBox="0 0 24 24" class="ico ico-sm"><path d="M6 9l6 6 6-6"/></svg></button>
+  </div>
+  <div class="chips" id="chips" role="toolbar" aria-label="Filtres rapides"></div>
+</header>
+
+<button id="locate" class="fab" type="button" aria-label="Me localiser">
+  <svg aria-hidden="true" viewBox="0 0 24 24" class="ico"><path d="M20 4L4 11l7 2 2 7z"/></svg>
+</button>
+
+<section id="sheet" class="sheet" data-state="half" aria-label="Liste des lieux">
+  <button class="handle" id="handle" type="button" aria-label="Agrandir ou réduire la liste"><span></span></button>
+  <div class="sheet-head" id="sheet-head">
+    <div>
+      <h1 id="count">Chargement…</h1>
+      <p id="sub" class="muted">Bordeaux</p>
+    </div>
+  </div>
+  <ul id="list" class="list" aria-live="polite"></ul>
+  <p class="credits muted">Lieux vérifiés par COP. Carte © <a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a> © <a href="https://www.openmaptiles.org/" target="_blank" rel="noopener">OpenMapTiles</a> © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">contributeurs OpenStreetMap</a>. Adresses : Géoplateforme IGN.</p>
+</section>
+
+<section id="detail" class="detail" role="dialog" aria-modal="true" aria-labelledby="d-name" hidden></section>
+<section id="filters" class="panel" role="dialog" aria-modal="true" aria-labelledby="f-title" hidden></section>
+<div id="scrim" class="scrim" hidden></div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<noscript><p class="noscript">COP a besoin de JavaScript pour afficher la carte et les lieux.</p></noscript>
+<script src="assets/vendor/maplibre-gl-5.24.1/maplibre-gl.js"></script>
+<script type="module" src="assets/app.js"></script>
+</body>
+</html>
